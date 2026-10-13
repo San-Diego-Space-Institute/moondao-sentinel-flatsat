@@ -1,0 +1,45 @@
+name: Deliverable or technical question
+description: Track a project deliverable, technical question, or evidence gap
+title: "[Deliverable]: "
+labels: []
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Item type
+      options:
+        - Deliverable
+        - Technical question
+        - Test or evidence gap
+        - Documentation correction
+        - Publication or license review
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What is needed?
+      description: Describe the outcome or question and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Configuration and evidence
+      description: Include applicable unit/configuration, source, revision, and evidence links. Do not add secrets or restricted information.
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Planned
+        - In work
+        - Tested
+        - Accepted
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Provenance and release status
+      description: Identify authorship, third-party material, and whether public release authority is established.
