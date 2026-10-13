@@ -20,16 +20,16 @@ The MoonDAO proposal requested **$2,099.96** for two ground testbeds. The reques
 - Test logs, validation evidence, and comparison results.
 - A final technical report documenting outcomes, limitations, and reusable lessons.
 
-The `docs/` and `hardware/` directories provide a structure for these materials. Empty templates are not evidence that work has been completed. Planned work and completed work must be labeled distinctly.
+The files currently published here cover project scope, licensing, contribution, and provenance. Detailed engineering procedures, hardware records, software, and validation evidence will be added after they are prepared and cleared for release.
 
 ## Repository map
 
 | Path | Purpose |
 | --- | --- |
-| `docs/project/` | Scope, roles, project status, and delivery records |
-| `docs/engineering/` | Assembly, configuration, test, and validation documentation |
-| `hardware/` | Cleared diagrams and BOM records for the FlatSat testbeds |
-| `software/` | Original project software and configuration scripts |
+| `docs/project/` | Scope, roles, project status, and release rules |
+| `docs/engineering/` | Planned assembly, configuration, test, and validation documentation |
+| `hardware/` | Planned cleared diagrams and BOM records for the FlatSat testbeds |
+| `software/` | Planned original project software and configuration scripts |
 | `LICENSE` | MIT License for original software |
 | `LICENSE-DOCS` | CC BY 4.0 for original documentation and other covered non-software content |
 | `THIRD_PARTY_NOTICES.md` | Attribution and license register for included third-party material |
