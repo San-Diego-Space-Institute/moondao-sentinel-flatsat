@@ -1,0 +1,21 @@
+# Editor and operating-system artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Build and test output; add selected, reviewed evidence intentionally
+build/
+dist/
+__pycache__/
+.pytest_cache/
